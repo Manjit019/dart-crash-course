@@ -1,7 +1,39 @@
 /*
-  Basics of Dart programming language
-1. Variables and Data Types
-2. operators
+  Basics of Dart programming language : 
+
+  Dart : 
+  -Dart is a modern, object-oriented programming language developed by Google. It's a secure, fast, and productive language that's easy to learn and use. Dart is used for mobile development, web development, and server-side development. 
+
+  -Dart is a compiled language, which means that the code is converted into machine code before it's executed. This means that Dart is faster than other programming languages, such as C++ and Java.
+
+  -Dart is a dynamic language, which means that the type of a variable can be changed at runtime. This means that Dart is flexible and easy to use. 
+
+  -Dart is a multi-platform language, which means that it can be used on multiple operating systems, such as Windows, Linux, and macOS.
+
+  -Dart is a secure language, which means that it has built-in security features, such as encryption and authentication.
+
+  -Dart is a popular language for mobile development, web development, and server-side development.
+
+
+1. Variables and Data Types - 
+  - Variable : It is used to store data in a program. It can be of different types, such as int, double, String, bool, etc. It is just like a kitchen container that can hold different things.
+  - Data Types : It is used to specify the type of a variable. It can be of different types, such as int, double, String, bool, etc.
+
+2. operators - 
+  - Operators : It is used to perform different operations on variables. It can be of different types, such as +, -, *, /, %, ==, !=, >, <, >=, <=, etc.
+  Some of the most common operators include:
+  - Arithmetic Operators : It is used to perform arithmetic operations on variables. It can be of different types, such as +, -, *, /, %.
+  - Assignment Operators : It is used to assign values to variables. It can be of different types, such as =, +=, -=, *=, /=, %=.
+  - Logical Operators : It is used to perform logical operations on variables. It can be of different types, such as &&, ||, !.
+  - Relational Operators : It is used to perform relational operations on variables. It can be of different types, such as ==, !=, >, <, >=, <=.
+  - Bitwise Operators : It is used to perform bitwise operations on variables. It can be of different types, such as &, |, ^, ~, <<, >>.
+
+3. Type Casting - 
+  - Type Casting : It is used to convert a variable from one type to another. It can be of different types, such as int, double, String, bool, etc.
+  - Implicit Type Casting : It is used to convert a variable from one type to another. It can be of different types, such as int, double, String, bool, etc.
+  - Explicit Type Casting : It is used to convert a variable from one type to another. It can be of different types, such as int, double, String, bool, etc.
+
+
  */
 
 void main(List<String> args) {

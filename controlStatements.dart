@@ -1,20 +1,22 @@
 /*
-Control Statements in Dart
-1. if-else statement
-2. switch-case statement
-3. for loop and various for loop types
-4. while loop
-5. do-while loop
-6. break statement
-7. continue statement
-8. try-catch-finally statement
-10. return statement
-11. throw statement
-12. yield statement
-13. labeled statements
-14. conditional (ternary) operator
-15. null-aware operators
-17. collection if and for
+Control Statements in Dart : is a statement that controls the flow of execution in a program. It allows you to perform different actions based on certain conditions. 
+
+There are different types of control statements in Dart programming language. Some of the most common types include:
+1. if-else statement - used to execute a block of code if a certain condition is true and another block of code if the condition is false
+2. switch-case statement - used to execute a block of code based on the value of a variable or expression.
+3. for loop and various for loop types - used to iterate over a sequence of values and execute a block of code for each value in the sequence.
+4. while loop - used to execute a block of code as long as a certain condition is true or until a certain condition becomes false.
+5. do-while loop - used to execute a block of code at least once and then repeat it as long as a certain condition is true. 
+6. break statement - used to exit a loop or switch-case statement.
+7. continue statement - used to skip the current iteration of a loop.
+8. try-catch-finally statement - used to handle exceptions that may occur during the execution of a program.
+10. return statement - used to exit a function and return a value to the caller.
+11. throw statement - used to throw an exception in a function.
+12. yield statement - used to return a value from a generator function.
+13. labeled statements - used to label a statement in a loop or switch-case statement.
+14. conditional (ternary) operator - used to execute a block of code if a certain condition is true or another block of code if the condition is false.
+15. null-aware operators - used to access a property or method of an object that may be null. 
+17. collection if and for - used to iterate over a sequence of values and execute a block of code for each value in the sequence. 
 */
 
 void main(List<String> args) {

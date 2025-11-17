@@ -1,3 +1,36 @@
+/*
+ Functions in Dart : 
+ A function is a block of code that performs a specific task. It can accept input parameters and return a value, or it can perform a side effect, such as printing to the console or modifying a variable.
+
+syntax:
+<return_type> <function_name>(<parameters>){
+  // function body
+  return <return_value>;
+} 
+
+calling a function:
+<function_name>(<arguments>);
+
+there are different types of functions in dart , which we will covered:
+
+1. single line function
+2. multi line function
+3. function with parameters
+4. function with return type
+5. optional parameters
+6. named parameters
+7. anonymous functions
+8. arrow functions
+9. recursive functions
+10. closure functions
+11. nullable functions
+12. other functions
+
+
+In real world, functions are used to perform specific tasks in a program. For example, a function may be used to calculate the area of a rectangle or to convert a temperature from Celsius to Fahrenheit. and many more...
+
+*/
+
 void main(List<String> args) {
   // Example usages of the functions defined below
   print(greetUser('Bittu'));
