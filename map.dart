@@ -11,25 +11,25 @@
 */
 
 void main(List<String> args) {
-  Map<String,int> marks = {
+  Map<String, int> marks = {
     'Bittu': 100,
     'Bikki': 95,
     'Prabhat': 80,
     'Ankit': 70,
   };
 
-  print(marks.runtimeType); // 
+  print(marks.runtimeType); //
   print(marks['Bittu']); // accessing value using key
   print(marks.containsKey('Bittu')); // check if key exists
   print(marks.isEmpty); // check if map is empty
   print(marks.length); // length of map
 
-// updating value
+  // updating value
   marks['Bittu'] = 200;
   print(marks['Bittu']);
 
-//
-  if(marks['Bikki'] == null){
+  //
+  if (marks['Bikki'] == null) {
     print('key does not exist');
   } else {
     print(marks['Bikki']!.isEven);
@@ -67,7 +67,7 @@ void main(List<String> args) {
   marks['Vikash'] = 80;
   print(marks);
   //or
-  final anotherMap = {'Bittu': 100, 'Bikki': 95, 'Prabhat': 80, 'Ankit': 70,};
+  final anotherMap = {'Bittu': 100, 'Bikki': 95, 'Prabhat': 80, 'Ankit': 70};
   marks.addAll(anotherMap);
   print(marks);
   //or
@@ -91,11 +91,16 @@ void main(List<String> args) {
   print(copyMap);
 
   // check if map is equal to another map
-   Map<String, int> anotherMap1 = {'Bittu': 100, 'Bikki': 95, 'Prabhat': 80, 'Ankit': 70,};
+  Map<String, int> anotherMap1 = {
+    'Bittu': 100,
+    'Bikki': 95,
+    'Prabhat': 80,
+    'Ankit': 70,
+  };
   print(marks == anotherMap1);
 
-  // 
-  Map<String,int> marksUser = {
+  //
+  Map<String, int> marksUser = {
     'Maths': 100,
     'Physics': 95,
     'Chemistry': 80,
@@ -103,26 +108,22 @@ void main(List<String> args) {
   };
 
   List<Map<String, int>> marksList = [
-    {
-      'Maths': 100,
-      'Physics': 95,
-      'Chemistry': 80,
-      'Biology': 70,
-    },
-    {
-      'Maths': 90,
-      'Physics': 85,
-      'Chemistry': 75,
-      'Biology': 65,
-    },
-    marksUser
+    {'Maths': 100, 'Physics': 95, 'Chemistry': 80, 'Biology': 70},
+    {'Maths': 90, 'Physics': 85, 'Chemistry': 75, 'Biology': 65},
+    marksUser,
   ];
 
-  marksList.map((element) => {
-    // print(element)
-    element.forEach((key, value) {
-      print('$key: $value');
-    })
-  }).toList();
+  marksList
+      .map(
+        (element) => {
+          // print(element)
+          element.forEach((key, value) {
+            print('$key: $value');
+          }),
+        },
+      )
+      .toList();
 
+  
 }
+
