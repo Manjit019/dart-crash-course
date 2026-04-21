@@ -1,6 +1,6 @@
-# 🐦 DART-PRACTICE
+# 🐦 DART-CRASH-COURSE
 
-Welcome to `dart-practice` — a personal playground where I explore and experiment with the Dart programming language. This repository documents my learning journey, from syntax basics to building real-world applications using Dart.
+Welcome to `dart-crash-course` — a personal playground where I explore and experiment with the Dart programming language. This repository documents my learning journey, from syntax basics to building real-world applications using Dart.
 
 ---
 
